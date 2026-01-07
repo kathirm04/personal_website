@@ -40,7 +40,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
             <div className="mx-3 mt-2">
                 <p className="">about me</p>
                 <img
-  src="/src/img/pfp.JPG"
+  src="/img/pfp.JPG"
   className="rounded-xl mt-4 transition-transform duration-300
              hover:scale-[1.02]"
 />
@@ -49,22 +49,22 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                     <a className="bg-[#27272A] h-10 w-10 p-2 rounded-xl
              transition-all duration-200
              hover:scale-110 hover:bg-[#3F3F46]" href="https://x.com/KathirMaar84659">
-                        <img src="/src/img/x.png"></img>
+                        <img src="/img/x.png"></img>
                     </a>
                     <a className="bg-[#27272A] h-10 w-10 p-1.5 rounded-xl
              transition-all duration-200
              hover:scale-110 hover:bg-[#3F3F46]" href="https://www.linkedin.com/in/kathir-maari/">
-                        <img src="/src/img/linkedin.png"></img>
+                        <img src="/img/linkedin.png"></img>
                     </a>
                     <a className="bg-[#27272A] h-10 w-10 p-2 rounded-xl
              transition-all duration-200
              hover:scale-110 hover:bg-[#3F3F46]" href="mailto:kathir.maarik04@gmail.com">
-                        <img src="/src/img/mail.png"></img>
+                        <img src="/img/mail.png"></img>
                     </a>
                     <a className="bg-[#27272A] h-10 w-10 p-2 rounded-xl
              transition-all duration-200
              hover:scale-110 hover:bg-[#3F3F46]" href="https://open.spotify.com/user/kathir_m?si=a30e24a60c424b63">
-                        <img src="/src/img/spotify.png"></img>
+                        <img src="/img/spotify.png"></img>
                     </a>
                 </div>
                 <div>
@@ -88,7 +88,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                     </div>
                     <div className="flex justify-start">
                         <div className="bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
-                            <img src="/src/img/block_o.png"></img>
+                            <img src="/img/block_o.png"></img>
                         </div>
                         <div className="mt-2">
                             <p className="text-white text-sm ml-2">The Ohio State University</p>
@@ -122,7 +122,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     hover:ring-1 hover:ring-white/10
   "
 >
-                    <img className=" w-70 h-40 rounded-xl"src="/src/img/itinera.png"></img>
+                    <img className=" w-70 h-40 rounded-xl"src="/img/itinera.png"></img>
                     <p className="
     text-white mt-2
     transition-all duration-300
@@ -137,7 +137,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     hover:shadow-xl hover:shadow-black/40
     hover:ring-1 hover:ring-white/10
   " href="https://github.com/kathirm04/ZoomGage">
-                    <img className=" w-70 h-40 rounded-xl"src="/src/img/zoomgage.jpeg"></img>
+                    <img className=" w-70 h-40 rounded-xl"src="/img/zoomgage.jpeg"></img>
                     <p className="
     text-white mt-2
     transition-all duration-300
@@ -152,7 +152,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     hover:shadow-xl hover:shadow-black/40
     hover:ring-1 hover:ring-white/10
   " href="https://github.com/akuppa9/Hyperpedia-Hypertro">
-                    <img className=" w-70 h-40 rounded-xl"src="/src/img/hyperpedia.png"></img>
+                    <img className=" w-70 h-40 rounded-xl"src="/img/hyperpedia.png"></img>
                     <p className="
     text-white mt-2
     transition-all duration-300
@@ -172,7 +172,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                 transition-colors duration-200
                 ">
                     <div className="bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
-                        <img src="/src/img/google.webp"></img>
+                        <img src="/img/google.webp"></img>
                     </div>
                     <div className="mt-2 ml-3">
                         <p className="text-white text-sm ">Google</p>
@@ -183,7 +183,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                 transition-colors duration-200
                 ">
                     <div className="bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
-                        <img src="/src/img/google.webp"></img>
+                        <img src="/img/google.webp"></img>
                     </div>
                     <div className="mt-2 ml-3">
                         <p className="text-white text-sm ">Google</p>
@@ -194,7 +194,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                 transition-colors duration-200
                 ">
                     <div className="bg-[#ff1612] h-10 w-10 p-1.5 mt-2 rounded-xl">
-                        <img src="/src/img/toyota_2.png"></img>
+                        <img src="/img/toyota_2.png"></img>
                     </div>
                     <div className="mt-2 ml-3">
                         <p className="text-white text-sm ">Toyota Research & Dev</p>
@@ -205,7 +205,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                 transition-colors duration-200
                 ">
                     <div className="bg-[#ff1612] h-10 w-10 p-1.5 mt-2 rounded-xl">
-                        <img src="/src/img/toyota_2.png"></img>
+                        <img src="/img/toyota_2.png"></img>
                     </div>
                     <div className="mt-2 ml-3">
                         <p className="text-white text-sm ">Toyota</p>
@@ -216,7 +216,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                 transition-colors duration-200
                 ">
                     <div className="bg-[#fdc938] h-10 w-10 p-1.5 mt-2 rounded-xl">
-                        <img src="/src/img/c.png"></img>
+                        <img src="/img/c.png"></img>
                     </div>
                     <div className="mt-2 ml-3">
                         <p className="text-white text-sm ">Central Insurance</p>
