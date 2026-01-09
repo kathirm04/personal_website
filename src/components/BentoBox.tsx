@@ -26,9 +26,9 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     grid-rows-8
     gap-5
     text-[#71717C]
-    mt-2
+    mt-3
     px-6
-    pb-10
+    pb-2
   "
 >
 
