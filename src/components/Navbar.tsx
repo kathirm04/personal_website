@@ -10,7 +10,7 @@ function Navbar({
       <div className="bg-[#0A0A0A] h-2"></div>
 
       <nav className="flex justify-between mx-4 text-white mt-2 items-center">
-        <a href="/" className="font-medium">
+        <a href="/" className="font-bold text-xl tracking-tight bg-gradient-to-r from-sky-200 to-blue-500 bg-clip-text text-white hover:text-transparent transition-colors duration-300">
           kathir maarikarthykeyan
         </a>
 

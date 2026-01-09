@@ -68,21 +68,21 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                     </a>
                 </div>
                 <div>
-                    <div className="flex justify-start items-center mt-3">
+                    <div className="flex justify-start items-center mt-4">
                         <p className="mr-2 text-sm">role</p>
                         <hr className="w-full h-1 mt-1 opacity-30 "></hr>
                     </div>
                     <p className="text-white text-sm">Software Engineer @ Google</p>
                 </div>
                 <div>
-                    <div className="flex justify-start items-center mt-3">
+                    <div className="flex justify-start items-center mt-4">
                         <p className="mr-2 text-sm">hobbies</p>
                         <hr className="w-full h-1 mt-1 opacity-30 "></hr>
                     </div>
                     <p className="text-white text-sm">Ohio State Football, Lakers, Tennis, Basketball, Football, Video games (CFB 26, Madden 26)</p>
                 </div>
                 <div>
-                    <div className="flex justify-start items-center mt-3">
+                    <div className="flex justify-start items-center mt-4">
                         <p className="mr-2 text-sm">education</p>
                         <hr className="w-full h-1 mt-1 opacity-30 "></hr>
                     </div>
@@ -97,7 +97,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                     </div>
                 </div>
                 <div>
-                    <div className="flex justify-start items-center mt-3">
+                    <div className="flex justify-start items-center mt-4">
                         <p className="text-sm mr-2">location</p>
                         <hr className="w-full h-1 mt-1 opacity-30 "></hr>
                     </div>
@@ -106,7 +106,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
 
             </div>
         </div>
-        <div className="row-span-3 col-span-5 bg-[#18181B] rounded-xl
+        <div className="row-span-3 col-span-5 bg-[#18181B] rounded-xl pb-4
                 transition-all duration-300 ease-out
                 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/40
                 hover:ring-1 hover:ring-white/10">
@@ -122,13 +122,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     hover:ring-1 hover:ring-white/10
   "
 >
-                    <img className=" w-70 h-40 rounded-xl"src="/img/itinera.png"></img>
-                    <p className="
-    text-white mt-2
-    transition-all duration-300
-    group-hover:translate-y-[-2px]
-    group-hover:text-white
-  ">Itinera - AI Travel Assistant</p>
+                    <img className=" w-70 h-36 rounded-xl"src="/img/itinera.png"></img>
+                    <div className="mt-2 transition-all duration-300 group-hover:translate-y-[-2px]">
+                        <p className="text-white font-medium">Itinera - AI Travel Assistant</p>
+                        <p className="text-zinc-400 text-xs mt-0.5 truncate">Plan your perfect trip with AI</p>
+                    </div>
                 </a>
                 <a className="
     group bg-[#38383b] rounded-xl p-2
@@ -137,13 +135,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     hover:shadow-xl hover:shadow-black/40
     hover:ring-1 hover:ring-white/10
   " href="https://github.com/kathirm04/ZoomGage">
-                    <img className=" w-70 h-40 rounded-xl"src="/img/zoomgage.jpeg"></img>
-                    <p className="
-    text-white mt-2
-    transition-all duration-300
-    group-hover:translate-y-[-2px]
-    group-hover:text-white
-  ">ZoomGage</p>
+                    <img className=" w-70 h-36 rounded-xl"src="/img/zoomgage.jpeg"></img>
+                    <div className="mt-2 transition-all duration-300 group-hover:translate-y-[-2px]">
+                        <p className="text-white font-medium">ZoomGage</p>
+                        <p className="text-zinc-400 text-xs mt-0.5 truncate">Analyze facial engagement in online meetings</p>
+                    </div>
                 </a>
                 <a className="
     group bg-[#38383b] rounded-xl p-2
@@ -152,13 +148,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     hover:shadow-xl hover:shadow-black/40
     hover:ring-1 hover:ring-white/10
   " href="https://github.com/akuppa9/Hyperpedia-Hypertro">
-                    <img className=" w-70 h-40 rounded-xl"src="/img/hyperpedia.png"></img>
-                    <p className="
-    text-white mt-2
-    transition-all duration-300
-    group-hover:translate-y-[-2px]
-    group-hover:text-white
-  ">Hyperpedia</p>
+                    <img className=" w-70 h-36 rounded-xl"src="/img/hyperpedia.png"></img>
+                    <div className="mt-2 transition-all duration-300 group-hover:translate-y-[-2px]">
+                        <p className="text-white font-medium">Hyperpedia</p>
+                        <p className="text-zinc-400 text-xs mt-0.5 truncate">One-stop shop for hypertrophy and weightlifting</p>
+                    </div>
                 </a>    
             </div>
         </div>
@@ -167,11 +161,12 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/40
                 hover:ring-1 hover:ring-white/10">
             <p className="m-2">experience</p>
-            <div className="mx-4">
-                <div className="flex justify-start mx-4 rounded-lg p-2
-                transition-colors duration-200
+            <div className="mx-4 group/list">
+                <div className="relative flex justify-start mx-4 rounded-lg p-2
+                transition-all duration-300 group-hover/list:opacity-35 hover:!opacity-100
                 ">
-                    <div className="bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
+                    <div className="absolute left-[28px] top-9 bottom-0 w-[1px] bg-zinc-700/50"></div>
+                    <div className="relative z-10 bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
                         <img src="/img/google.webp"></img>
                     </div>
                     <div className="mt-2 ml-3">
@@ -179,10 +174,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                         <p className="text-sm">Software Engineer</p>
                     </div>
                 </div>
-                <div className="flex justify-start mx-4 mt-4 rounded-lg p-2
-                transition-colors duration-200
+                <div className="relative flex justify-start mx-4 mt-4 rounded-lg p-2
+                transition-all duration-300 group-hover/list:opacity-35 hover:!opacity-100
                 ">
-                    <div className="bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
+                    <div className="absolute left-[28px] -top-4 bottom-0 w-[1px] bg-zinc-700/50"></div>
+                    <div className="relative z-10 bg-white h-10 w-10 p-1.5 mt-2 rounded-xl">
                         <img src="/img/google.webp"></img>
                     </div>
                     <div className="mt-2 ml-3">
@@ -190,10 +186,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                         <p className="text-sm">Software Engineering Intern</p>
                     </div>
                 </div>
-                <div className="flex justify-start mx-4 mt-4 rounded-lg p-2
-                transition-colors duration-200
+                <div className="relative flex justify-start mx-4 mt-4 rounded-lg p-2
+                transition-all duration-300 group-hover/list:opacity-35 hover:!opacity-100
                 ">
-                    <div className="bg-[#ff1612] h-10 w-10 p-1.5 mt-2 rounded-xl">
+                    <div className="absolute left-[28px] -top-4 bottom-0 w-[1px] bg-zinc-700/50"></div>
+                    <div className="relative z-10 bg-[#ff1612] h-10 w-10 p-1.5 mt-2 rounded-xl">
                         <img src="/img/toyota_2.png"></img>
                     </div>
                     <div className="mt-2 ml-3">
@@ -201,10 +198,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                         <p className="text-sm">Software Engineering Intern</p>
                     </div>
                 </div>
-                <div className="flex justify-start mx-4 mt-4 rounded-lg p-2
-                transition-colors duration-200
+                <div className="relative flex justify-start mx-4 mt-4 rounded-lg p-2
+                transition-all duration-300 group-hover/list:opacity-35 hover:!opacity-100
                 ">
-                    <div className="bg-[#ff1612] h-10 w-10 p-1.5 mt-2 rounded-xl">
+                    <div className="absolute left-[28px] -top-4 bottom-0 w-[1px] bg-zinc-700/50"></div>
+                    <div className="relative z-10 bg-[#ff1612] h-10 w-10 p-1.5 mt-2 rounded-xl">
                         <img src="/img/toyota_2.png"></img>
                     </div>
                     <div className="mt-2 ml-3">
@@ -212,10 +210,11 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                         <p className="text-sm">Production Engineering Intern</p>
                     </div>
                 </div>
-                <div className="flex justify-start mx-4 mt-4 rounded-lg p-2
-                transition-colors duration-200
+                <div className="relative flex justify-start mx-4 mt-4 rounded-lg p-2
+                transition-all duration-300 group-hover/list:opacity-35 hover:!opacity-100
                 ">
-                    <div className="bg-[#fdc938] h-10 w-10 p-1.5 mt-2 rounded-xl">
+                    <div className="absolute left-[28px] -top-4 h-[52px] w-[1px] bg-zinc-700/50"></div>
+                    <div className="relative z-10 bg-[#fdc938] h-10 w-10 p-1.5 mt-2 rounded-xl">
                         <img src="/img/c.png"></img>
                     </div>
                     <div className="mt-2 ml-3">
