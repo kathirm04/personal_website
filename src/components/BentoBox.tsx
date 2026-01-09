@@ -24,9 +24,9 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
     grid-flow-col
     auto-cols-[185px]
     grid-rows-8
-    gap-6
+    gap-5
     text-[#71717C]
-    mt-4
+    mt-2
     px-6
     pb-10
   "
@@ -44,7 +44,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
   className="rounded-xl mt-4 transition-transform duration-300
              hover:scale-[1.02]"
 />
-                <p className="text-white text-base mt-4">Hi, I’m Kathir M! I’m a recent graduate from The Ohio State University in Computer Science Engineering. </p>
+                <p className="text-white text-base mt-4">Hi, I’m Kathir! I’m a recent graduate from The Ohio State University in Computer Science Engineering with an AI specialization. </p>
                 <div className="flex justify-start gap-4 mt-4">
                     <a className="bg-[#27272A] h-10 w-10 p-2 rounded-xl
              transition-all duration-200
@@ -79,7 +79,7 @@ function BentoBox({ scrollRef }: BentoBoxProps) {
                         <p className="mr-2 text-sm">hobbies</p>
                         <hr className="w-full h-1 mt-1 opacity-30 "></hr>
                     </div>
-                    <p className="text-white text-sm">Ohio State Football, Lakers, Tennis, Basketball, Football, Video games (CFB 26, Madden 26)</p>
+                    <p className="text-white text-sm">Ohio State Football, Lebron, Tennis, Basketball, Football, Video games (CFB 26, Madden, NBA2k)</p>
                 </div>
                 <div>
                     <div className="flex justify-start items-center mt-4">
