@@ -16,7 +16,7 @@ function Navbar({
 
         <div className="flex items-center gap-3">
           <a
-            href="https://drive.google.com/file/d/1AfmYjcTvuFE0ADUK1XvcVtE_ADWjElx5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1W1G9f-OA3oAqBAas2N2Umbh0vHJ69J09/view?usp=sharing"
             className="hover:opacity-80 transition-opacity"
           >
             resume
